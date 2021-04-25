@@ -1,0 +1,19 @@
+{
+    "name": "user/php-framework",
+    "description": "Making PHP development easy and fast",
+    "authors": [
+        {
+            "name": "James Adakole",
+            "email": "jambone.james82@gmail.com",
+            "role": "Creator"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.3"
+    }
+}
